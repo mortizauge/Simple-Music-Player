@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MosaicPlayer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- force main color to be PrimaryColorDark -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/colorWhite</item>
+        <item name="colorSurface">@color/colorPrimaryDark</item>
+        <item name="colorOnSurface">@color/colorWhite</item>
+        <item name="colorError">@color/colorPrimaryDark</item>
+        <item name="colorOnError">@color/colorWhite</item>
+        <!-- force action bar icons to be white -->
+        <item name="android:actionMenuTextColor">@color/colorWhite</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MosaicPlayer" parent="Base.Theme.MosaicPlayer">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/colorWhite</item>
+        <item name="colorSurface">@color/colorPrimaryDark</item>
+        <item name="colorOnSurface">@color/colorWhite</item>
+        <item name="colorError">@color/colorPrimaryDark</item>
+        <item name="colorOnError">@color/colorWhite</item>
+        <!-- force action bar icons to be white -->
+        <item name="android:actionMenuTextColor">@color/colorWhite</item>
+    </style>
+</resources>
